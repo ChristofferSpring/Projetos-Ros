@@ -1,2 +1,2 @@
-beginner_tutorials
+beginner_tutorials:turtlesim_cleaner
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/Tutorial/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/Tutorial/catkin_ws/install -G Unix Makefiles
