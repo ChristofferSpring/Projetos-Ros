@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <world name="default">
+        <!-- A global light source -->
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        <!-- A ground plane -->
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+        <include>
+            <uri>model://postbox</uri>
+            <!-- aqui muda a posicao em millers -->
+            <pose> 0 0 2 0 0 0 0</pose>
+            <!-- pra aplicar a fisica mudar o static-->
+            <static>true</static>
+        </include>
+    
+            <include>
+            <uri>model://myfirstmodel</uri>
+            <!-- aqui muda a posicao em millers -->
+            <pose> 0 0 4 0 0 0 0</pose>
+            <!-- pra aplicar a fisica mudar o static-->
+            <static>true</static>
+        </include>
+    </world>
+</sdf>
+

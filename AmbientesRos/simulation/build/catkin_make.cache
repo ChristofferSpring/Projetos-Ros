@@ -1,0 +1,2 @@
+my_simulations:two-wheeled-robot-simulation/m2wr_description:two-wheeled-robot-simulation/my_worlds
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu20/Desktop/simulation/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/Desktop/simulation/install -G Unix Makefiles
