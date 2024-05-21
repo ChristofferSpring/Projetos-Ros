@@ -1,4 +1,4 @@
-prefix=/home/ubuntu20/Desktop/simulation/install
+prefix=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install
 
 Name: my_simulations
 Description: Description of my_simulations

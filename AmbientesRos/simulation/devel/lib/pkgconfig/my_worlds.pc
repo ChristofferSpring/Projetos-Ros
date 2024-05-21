@@ -1,8 +1,0 @@
-prefix=/home/ubuntu20/Desktop/simulation/devel
-
-Name: my_worlds
-Description: Description of my_worlds
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu20/Desktop/simulation/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/ubuntu20/Desktop/simulation/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu20/Desktop/simulation/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/ubuntu20/Desktop/simulation/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src:$ROS_PACKAGE_PATH"

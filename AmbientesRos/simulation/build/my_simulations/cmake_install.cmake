@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu20/Desktop/simulation/src/my_simulations
+# Install script for directory: /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_simulations
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu20/Desktop/simulation/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu20/Desktop/simulation/build/my_simulations/catkin_generated/installspace/my_simulations.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/catkin_generated/installspace/my_simulations.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simulations/cmake" TYPE FILE FILES
-    "/home/ubuntu20/Desktop/simulation/build/my_simulations/catkin_generated/installspace/my_simulationsConfig.cmake"
-    "/home/ubuntu20/Desktop/simulation/build/my_simulations/catkin_generated/installspace/my_simulationsConfig-version.cmake"
+    "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/catkin_generated/installspace/my_simulationsConfig.cmake"
+    "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/catkin_generated/installspace/my_simulationsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simulations" TYPE FILE FILES "/home/ubuntu20/Desktop/simulation/src/my_simulations/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simulations" TYPE FILE FILES "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_simulations/package.xml")
 endif()
 
