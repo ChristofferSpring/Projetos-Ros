@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install
+
+Name: my_robot_description
+Description: Description of my_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

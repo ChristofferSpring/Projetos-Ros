@@ -35,6 +35,14 @@
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/gtest/googletest/CMakeFiles/test.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/install/strip.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/install/local.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/install.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/list_install_components.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/rebuild_cache.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/edit_cache.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/test.dir
+/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/CMakeFiles/_catkin_empty_exported_target.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/install/strip.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/install/local.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/install.dir
@@ -42,4 +50,3 @@
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/rebuild_cache.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/edit_cache.dir
 /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/test.dir
-/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations/CMakeFiles/_catkin_empty_exported_target.dir

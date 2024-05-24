@@ -444,6 +444,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
+my_robot_description_BINARY_DIR:STATIC=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description
+
+//Value Computed by CMake
+my_robot_description_SOURCE_DIR:STATIC=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_robot_description
+
+//Value Computed by CMake
 my_simulations_BINARY_DIR:STATIC=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_simulations
 
 //Value Computed by CMake
@@ -597,7 +603,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

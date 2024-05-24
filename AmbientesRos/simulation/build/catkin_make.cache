@@ -1,2 +1,2 @@
-my_simulations
+my_robot_description:my_simulations
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install -G Unix Makefiles
