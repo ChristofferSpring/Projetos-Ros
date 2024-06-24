@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20/Desktop/teste/catkin_ws/install
+
+Name: bracinho
+Description: Description of bracinho
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
