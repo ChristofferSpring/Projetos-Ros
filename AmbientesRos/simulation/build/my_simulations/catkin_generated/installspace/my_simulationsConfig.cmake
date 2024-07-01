@@ -67,14 +67,14 @@ set(my_simulations_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_simulations_SOURCE_PREFIX /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_simulations)
-  set(my_simulations_DEVEL_PREFIX /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/devel)
+  set(my_simulations_SOURCE_PREFIX /home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/src/my_simulations)
+  set(my_simulations_DEVEL_PREFIX /home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/devel)
   set(my_simulations_INSTALL_PREFIX "")
   set(my_simulations_PREFIX ${my_simulations_DEVEL_PREFIX})
 else()
   set(my_simulations_SOURCE_PREFIX "")
   set(my_simulations_DEVEL_PREFIX "")
-  set(my_simulations_INSTALL_PREFIX /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install)
+  set(my_simulations_INSTALL_PREFIX /home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/install)
   set(my_simulations_PREFIX ${my_simulations_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/install/lib;/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

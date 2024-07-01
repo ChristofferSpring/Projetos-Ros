@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_robot_description
+# Install script for directory: /home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/src/my_robot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/cmake" TYPE FILE FILES
-    "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_descriptionConfig.cmake"
-    "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_descriptionConfig-version.cmake"
+    "/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_descriptionConfig.cmake"
+    "/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/build/my_robot_description/catkin_generated/installspace/my_robot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/src/my_robot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/src/my_robot_description/package.xml")
 endif()
 

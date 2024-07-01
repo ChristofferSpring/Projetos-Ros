@@ -1,4 +1,4 @@
-prefix=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/simulation/devel
+prefix=/home/ubuntu/Desktop/projects/Projetos-Ros/AmbientesRos/simulation/devel
 
 Name: my_robot_description
 Description: Description of my_robot_description
