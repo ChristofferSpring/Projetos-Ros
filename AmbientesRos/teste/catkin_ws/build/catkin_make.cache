@@ -1,0 +1,2 @@
+beginner_tutorial:bracinho:vision_msgs
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu20/Desktop/teste/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/Desktop/teste/catkin_ws/install -G Unix Makefiles
