@@ -25,7 +25,7 @@
     </link>    
 
     <joint name="joint1" type="fixed">
-        <origin xyz="0.174 0 0.4" rpy="0 0 0"/> <!-- Posiciona o link filho acima do link pai -->
+        <origin xyz="0.184 0 0.39" rpy="0 0 0"/> <!-- Posiciona o link filho acima do link pai -->
         <parent link="base"/>
         <child link="base_braco"/>
     </joint>
@@ -54,14 +54,16 @@
         </collision>
     </link> 
 
-
-    <joint name="joint2" type="fixed">
-        <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Posiciona o link filho acima do link pai -->
+    <joint name="revolute_joint" type="revolute">
         <parent link="base_braco"/>
-        <child link="gira_braco"/>
+        <child link="gira"/>
+        <axis xyz="0 0 1"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+        <limit lower="-1.57" upper="1.57" effort="1000" velocity="1.0"/>
     </joint>
+    
 
-    <link name="gira_braco">
+    <link name="gira">
         <inertial>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <mass value="5"/>
@@ -70,7 +72,7 @@
         <visual >
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="0.20 0.15 0.10"/>
+                <box size="0.05 0.05 0.40"/>
             </geometry>
             <material name="">
                 <color rgba="255 0.0 0.0 1"/>
@@ -85,4 +87,42 @@
         </collision>
     </link> 
 
+<joint name="teste" type="fixed">
+        <origin xyz="0.03 0 0.2" rpy="0 0 0"/> <!-- Posiciona o link filho acima do link pai -->
+        <parent link="gira"/>
+        <child link="testegiro"/>
+    </joint>
+
+    <link name="testegiro">
+        <inertial>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <mass value="5"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual >
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.1 0.03 0.10"/>
+            </geometry>
+            <material name="">
+                <color rgba="255 0.0 0.0 1"/>
+                <texture />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.15 0.20 0.10"/>
+            </geometry>
+        </collision>
+    </link> 
+<transmission name="transmission_revolute_joint">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="revolute_joint">
+    <hardwareInterface>EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="revolute_joint_motor">
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
 </robot>

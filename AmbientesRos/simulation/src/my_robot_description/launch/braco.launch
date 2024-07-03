@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
     <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot_description)/urdf/braco.urdf'"/>
+    <param name="use_sim_time" value="true"/>
+    
+    <rosparam file="$(find my_robot_description)/config/braco_controllers.yaml" command="load"/>
+    
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+          args="joint_state_controller effort_revolute_joint_controller" />
+    
     <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
     <arg name="x" default="0"/>
     <arg name="y" default="0"/>
     <arg name="z" default="0.5"/>
-
+    
     <node name="my_robot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-urdf -param robot_description -model my_robot -x $(arg x) -y $(arg y) -z $(arg z)" />
-
-</launch>            
+          args="-urdf -param robot_description -model my_robot -x $(arg x) -y $(arg y) -z $(arg z)" />
+</launch>

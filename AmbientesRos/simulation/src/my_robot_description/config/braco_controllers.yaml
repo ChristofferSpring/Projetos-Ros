@@ -1,0 +1,10 @@
+controller_manager:
+  ros__parameters:
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+
+    effort_revolute_joint_controller:
+      type: effort_controllers/JointEffortController
+      joint: revolute_joint
+      pid: {p: 100.0, i: 0.01, d: 10.0}  # Ajuste os valores PID conforme necessário

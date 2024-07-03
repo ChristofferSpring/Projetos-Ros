@@ -1,3 +1,9 @@
 {
-    "cmake.sourceDirectory": "/home/ubuntu20/Desktop/simulation/src/my_simulations"
+    "cmake.sourceDirectory": "/home/ubuntu20/Desktop/simulation/src/my_simulations",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
 }

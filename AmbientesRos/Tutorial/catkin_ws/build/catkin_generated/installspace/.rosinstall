@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ubuntu20/projects/Projetos-Ros/AmbientesRos/Tutorial/catkin_ws/install/setup.sh
+    local-name: /usr/local/setup.sh

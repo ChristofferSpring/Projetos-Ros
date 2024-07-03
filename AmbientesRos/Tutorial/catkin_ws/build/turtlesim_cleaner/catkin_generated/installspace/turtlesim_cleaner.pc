@@ -1,4 +1,4 @@
-prefix=/home/ubuntu20/projects/Projetos-Ros/AmbientesRos/Tutorial/catkin_ws/install
+prefix=/usr/local
 
 Name: turtlesim_cleaner
 Description: Description of turtlesim_cleaner
